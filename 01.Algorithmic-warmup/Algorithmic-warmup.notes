@@ -1,0 +1,23 @@
+== Asymptotic Notation ==
+
+Looks to provide a way to *measure runtimes* as we scale to large inputs. Ignores 
+factors that we cannot determine for sure.
+
+Big O Notation:
+- f(n) = O(g(n)) => f is Big-O of G if there exist constants N and c, so that
+  for all n >= N, f(n) <= c*g(n)
+- Loses information about important constants.
+- I sonly assymtotic. 
+- Multiplicative constants can be removed. (7n^3 = O(n^3))
+
+Fibonacci Sequence:
+
+- create an array             O(n)
+- F[0] <- 0                   O(1)
+- F[1] <- 1                   O(1)
+- for i from 2 to n:          O(n)
+  - F[i] < F[n-1] p F[n - 2]  O(n)
+- return F(n)                 O(1)
+Total:
+  3*O(n) + 3*O(1) + O(n^2)
+
