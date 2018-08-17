@@ -1,0 +1,8 @@
+The Master THeorem gives us a formula to calculate the runtime of solution with
+recurrence.
+
+T(n) = aT(n/b) + (n^d)
+
+if d > log b(a) => O(n^d)
+if d = log b(a) => O(n^d * log n)
+if d < log b(a) => O(n^log b(a))
