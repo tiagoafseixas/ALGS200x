@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "BinarySearch",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CollectSignatures",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CollectSignatures",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibonacciService",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "FibonacciService",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxPrizePlaces",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MaxPrizePlaces",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxRevenueAd",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MaxRevenueAd",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSalary",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MaxSalary",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximizeLoot",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MaximizeLoot",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoneyChangeCalculator",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MoneyChangeCalculator",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of remote debuggee>"
+        }
+    ]
+}
